@@ -1,0 +1,65 @@
+.AddForm {
+    display: flex;
+    flex-direction: column;
+    div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input {
+        height: 25px;
+    }
+    label {
+        width: 120px;
+        left: 0;
+    }
+    p {
+        text-align: center;
+        color: brown;
+    }
+}
+
+.separateComponent {
+    margin: 10px 7px;
+    display: flex;
+    flex-direction: row;
+    label {
+        margin-right: 10px;
+    }
+    button {
+        margin-right: 20px;
+        border: 0;
+        padding: 10px;
+        font: inherit;
+        font-weight: bolder;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .addButton {
+        color: white;
+        background-color: darkgoldenrod;
+    }
+}
+.buttonElement {
+    margin: 0 auto;
+}
+.titleHeader {
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+.titleHeader h3 {
+    margin: 0 auto;
+    padding: 7px 15px;
+}
+
+.titleHeader span {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+}

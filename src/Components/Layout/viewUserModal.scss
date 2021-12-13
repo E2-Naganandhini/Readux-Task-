@@ -1,0 +1,32 @@
+img {
+    width: 50%;
+    height: 60%;
+}
+.viewModalContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    button {
+        border: 0;
+        padding: 10px;
+        cursor: pointer;
+        font-family: inherit;
+        color: rgb(255, 255, 255);
+        background-color: darkgoldenrod;
+        margin: 7px;
+    }
+    input {
+        height: 30px;
+        font-family: inherit;
+    }
+}
+
+.closeModal {
+    color: red;
+    float: right;
+    font-weight: bolder;
+    font-family: "Arial Narrow Bold", sans-serif;
+    cursor: pointer;
+}

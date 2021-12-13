@@ -1,0 +1,10 @@
+.displayUserContainer {
+    margin: 40px;
+    display: flex;
+    height: 620px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
